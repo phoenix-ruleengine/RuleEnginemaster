@@ -1,0 +1,21 @@
+{
+  "name": "phoenix-rule-engine",
+  "version": "1.0.0",
+  "description": "Rules engine implemented in Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon start-service.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jsonq": "^1.2.0",
+    "lodash": "^4.17.11",
+    "mocha-cli": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
